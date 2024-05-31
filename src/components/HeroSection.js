@@ -7,11 +7,11 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1>About Me</h1>
-            <p>I am...</p> // *TODO
+            <p>I am...</p>
             <div className='hero-btns'>
                 <Button 
                     className='btns' 
-                    buttonStyle='btn--outline' 
+                    buttonStyle='btn--primary' 
                     buttonSize='btn--large'
                 >
                     Email
@@ -25,7 +25,7 @@ function HeroSection() {
                 </Button>
                 <Button 
                     className='btns' 
-                    buttonStyle='btn--outline' 
+                    buttonStyle='btn--primary' 
                     buttonSize='btn--large'
                 >
                     LinkedIn
@@ -35,4 +35,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection
+export default HeroSection;

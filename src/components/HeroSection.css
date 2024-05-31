@@ -1,11 +1,11 @@
 .hero-container {
-    background: #ff964f;
+    background-color: #c3d9ff;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
@@ -14,6 +14,7 @@
     color: #000000;
     font-size: 100px;
     margin-top: -100px;
+    margin-left: 20px;
 }
 
 .hero-container > p {
@@ -22,10 +23,12 @@
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 
                  sans-serif;
+    margin-left: 20px;
 }
 
 .hero-btns {
     margin-top: 32px;
+    margin-left: 20px;
 }
 
 .hero-btns .btn {
