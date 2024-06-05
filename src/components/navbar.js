@@ -30,8 +30,8 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
+                    <img src='https://drive.google.com/thumbnail?id=1JjpAp_4LWNWaVg2DVw6uw7FAgNy4j6jJ' alt='headshot'></img>
                     <Link to='/' className='navbar-myname' onClick={closeMobileMenu}>
-                        {/* HOME <i className='fab fa-solid fa-house'></i> */}
                         ALINA KIM 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
